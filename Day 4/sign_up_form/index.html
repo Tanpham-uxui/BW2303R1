@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <style>
+        th {float: left;}
+    </style>
+<body>
+    <div class="sign-up">
+    <form method="get" action="sign-up-form.html">
+        <table>
+            <tr>
+                <th colspan="2"><label for="name">Họ và tên:</label></th>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" id="name" name="name" required></td>
+            </tr><br>
+            <tr>
+                <th colspan="2"><label for="email">Email:</label></th>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="email" name="email" id="email" required></td>
+            </tr><br>
+            <tr>
+                <th colspan="2"><label for="phone-number">Số điện thoại:</label></th>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="tel" name="phone-number" id="phone-number" required></td>
+            </tr>
+            <tr><th colspan="2">Giới tính</th></tr>
+            <tr>
+                <td><input type="radio" name="gender" id="male">Nam</select></td>
+                <td><input type="radio" name="gender" id="female">Nữ</select></td>
+            </tr>
+            <tr>
+                <td><input type="submit" class="submit" value="Đăng ký"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>

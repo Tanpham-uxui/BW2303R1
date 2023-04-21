@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is the form</h1>
+</body>
+    <form action="action_page.php">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" size="20" maxlength="20" required><br><br>
+        <label for="phonenum">Phone: </label>
+        <input type="text" id="phonenum" name="phonenum" size="20" maxlength="20" required><br><br>
+        <label for="emailadd">Email: </label>
+        <input type="text" id="emailad" name="emailadd" size="20" maxlength="20" required><br><br>
+        <fieldset>
+            <legend>Which taxi do you require</legend>
+            <p> <input type="radio" name="taxi" value="car"> Car</p><br>
+            <p> <input type="radio" name="taxi" value="van"> Van </p><br>
+            <p> <input type="radio" name="taxi" value="tuk-tuk"> Tuk Tuk</p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Which taxi do you require</legend>
+            <p> <input type="checkbox" name="extras" value="baby-seat"> Baby Seat</p><br>
+            <p> <input type="checkbox" name="extras" value="wheelchair-access"> Wheelchair Access</p><br>
+            <p> <input type="checkbox" name="extras" value="stock-tip"> Stock Tip</p>
+        </fieldset><br><br>
+        <label for="time">Pickup date/time:</label>
+        <input type="date" id="time" name="time" required>
+        <br><br>
+        <label for="pickup_place">Pickup place</label>
+        <select id="pickup_place" name="pickup_place">
+            <option value="" selected>Select One</option> 
+            <option value="theatre">Theatre</option> 
+            <option value="city_center">City center</option> 
+            <option value="pool">Pool</option> 
+        </select>
+        <br><br>
+        <label for="dropoff_place">Dropoff Place: </label>
+        <input type="text" id="dropoff_place" name="dropoff_place" required list="destinations">
+        </input>
+        <br>
+        <datalist id="destinations">
+            <option value="Caves"></option>
+            <option value="Tomb"></option>
+            <option value="Super market"></option>
+        </datalist>
+        <br>
+        <label for="comments">Special Instructions</label>
+        <textarea name="comments" id="comments" maxlength="300"></textarea>
+        <br><br>
+        <input type="submit" id="submit" name="submit"/>
+        </form>
+</html>

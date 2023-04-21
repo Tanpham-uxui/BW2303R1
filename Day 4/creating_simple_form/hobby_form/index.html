@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple form page</title>
+  </head>
+  <body>
+    <form method="post" action="action-page.php">
+        <table cellspacing="4" id="hobby-form">
+            <tr>
+                <th colspan="4"><h2>Sở thích của bạn</h2></th>
+            </tr>
+            <tr>   
+                <th><label for="your-name">Họ và tên</label></th>
+                <td colspan="3"><input type="text" id="your-name" name="your-name" required></td>
+            </tr>
+            <tr>
+                <th><label for="email">Email</label></th>
+                <td colspan="3"><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <th rowspan="4"><label for="hobby">Sở thích</label></th>
+                <td><input type="checkbox" name="hobby" value="sport">Thể thao</td>
+                <td><input type="checkbox" name="hobby" value="music">Âm nhạc</td>
+                <td><input type="checkbox" name="hobby" value="reading-book">Đọc sách</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="hobby" value="surf-web">Lướt web</td>
+                <td><input type="checkbox" name="hobby" value="video-game">Chơi gane</td>
+                <td><input type="checkbox" name="hobby" value="movie">Điện ảnh</td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="checkbox" name="hobby" value="Travel" required>Du lịch</td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Gửi thông tin"></td>
+                <td colspan="2"><input type="reset" value="Nhập lại"></td>
+            </tr>
+        </table>
+    </form>
+  </body>
+</html>
