@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            width: 400px;
+            border: 3px solid lightgray;
+            position: fixed;
+            font-family: sans-serif;
+            border-radius: 10px;
+            background-color: darkgray;
+        }
+        main {
+            background-color: white;
+            border-radius: 5px;
+            margin-top: 4px;
+        }
+        .main-navbar{
+            background-color: #4267B2;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            height: 30px;
+            align-items: center;
+            border-radius: 5px;
+        }
+        .main-navbar > img{
+            width: 15px;
+            padding: 10px, 10px;
+            margin: 5px;
+        }
+        .search-bar {
+            stroke: 1px solid aliceblue;
+            stroke-width: 30px;
+            color: aliceblue;
+            display: flex;
+            background-color: #35518a;
+            height: 20px;
+            right: 50%;
+            border-radius: 5px;
+            padding: 0px 70px;
+        }
+        .search-bar img{
+            margin: 5px;
+            vertical-align: middle;
+        }
+        .search-bar p{
+            margin: 5px;
+            font-size: 10px;
+        }
+        .post-info {
+            padding: 5px;
+            display: flex;
+        }
+        .post-info img {
+            vertical-align: middle;
+            margin: 2px;
+            align-items: center;
+        }
+        .user-name {
+            align-items: center;
+        }
+        .user-name :first-child {
+            font-weight: lighter;
+            margin: 2px;
+            margin-top: 5px;
+            font-weight: bold;
+            font-size: 10px;
+        }
+        .user-name p{
+            font-size: 8px;
+            margin: 2px;
+            align-items: center;
+        }
+        .setting-button{
+            margin-top: 5px;
+            position: relative;
+            left: 250px;
+        }
+        .post-content :first-child{
+            font-size: 10px;
+            margin-left: 10px;
+            margin-top: 0px;
+        }
+        .reaction-bar {
+            display: flex;
+            width: 400px;
+            padding:5px 0px;
+        }
+        .reaction-emo{
+            display: flex;
+            margin-left: 5px;
+        }
+        .reaction-emo p{
+             margin: 3px;
+             font-size: 12px;
+             vertical-align: middle;
+        }
+        .reaction-emo img{
+            margin: 0px 2px;
+        }
+        .comments-count p{
+            font-size: 12px;
+            margin: 3px;
+            position: relative;
+            left: 85px;
+        }
+        .post-interact{
+            display: flex;
+            width: 400px;
+            justify-content: space-between;
+        }
+        .react-button{
+            display: flex;
+            width: 80px;
+            height: 50px;
+            justify-items: center;
+            justify-content: space-evenly;
+            margin: 0px 10px;
+        }
+        .react-button img{
+            padding-top: 11px;
+            margin-right: 5px;
+        }
+        .react-button p{
+            margin: 0px;
+            padding-top: 17px;
+
+        }
+    </Style>
+</head>
+<body>
+    <header>
+        <nav class="main-navbar">
+            <img src="image_holder/kisspng-paper-plane-airplane-computer-icons-5b32e59af32b34.254818571530062234996.png" width="30">
+            <div class="search-bar">
+                <img src="image_holder/pngaaa.com-1010903.png" width="10px" height="10px"> 
+                <p>Search</p>
+            </div>
+            <img src="image_holder/messenger-64.png">
+        </nav>
+    </header>
+    <main>
+        <div class="post-info">
+            <div>
+            <img src="image_holder/facebook_circle_color-512.webp" width="30px" height="30px">
+            </div>
+            <div class="user-name">
+                <p>My user name<p>
+                <p>Monday at 11:00 AM</p>
+            </div>
+            <div class="setting-button">
+            <img src="image_holder/—Pngtree—ellipsis icon symbol_4423285.png" width="20px" height="20px"/>
+            </div>
+        </div>
+        <div class="post-content"> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <img src="image_holder/04HUXgEu0I3mdCOejOjQpNE-5.webp" width="400px">
+        </div>
+        <div class="interact-bar">
+            <div class="reaction-bar">
+                <div class="reaction-emo">
+                    <img src="image_holder/pngimg.com - like_PNG62.png" width="20px" height="20px">
+                    <img src="image_holder/facebook-love-png-3.png" width="20px" height="20px">
+                    <img src="image_holder/facebook-haha-logo-FBF92AEB57-seeklogo.com.png" width="20px" height="20px">
+                    <p>Lorem Ipsum and 291 others</p>
+                </div>
+                <div class="comments-count">
+                    <p>55 comments</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="post-interact">
+            <div class="react-button" Name="like-button">
+                <img src="image_holder/like@4x.png" width="30px" height="24px" >
+                <p>Like</p>
+            </div>
+            <div class="react-button" Name="comment-button">
+                <img src="image_holder/comment@4x.png" width="30px" height="24px" >
+                <p>Comment</p>
+            </div>
+            <div class="react-button" Name="share-button">
+                <img src="image_holder/share@4x.png" width="30px" height="24px" >
+                <p>Share</p>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.menu {
+    list-style-type: none;
+    background-color: #333333;
+    width: 100px;
+    padding-left: 0;
+}
+.menu li{
+    color: white;
+    font-weight: bolder;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+}
+.menu li:hover{
+    background-color: red;
+}
+.menu li:hover .sub-menu{
+    visibility: visible;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.sub-menu{
+    position: absolute;
+    padding-left: 0;
+    top: 0;
+    left: 100px;
+    list-style: none;
+    background-color: #333333;
+    visibility: hidden;
+}

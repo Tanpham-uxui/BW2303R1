@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .transition-demo p{
+            background-color: rgb(0, 154, 192);
+            padding: 20px 20px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 17px;
+            font-weight: bold;
+            border-radius: 5px;
+            color: rgb(255, 255, 255);
+            height: 50px;
+            width: 50px;
+            cursor: pointer;
+        }
+        .transition-demo :first-child{
+            position: relative;
+            left: 0%;
+            transition: left 2s ease ;
+        }
+        .transition-demo :nth-child(2){
+            position: relative;
+            left: 0%;
+            transition: left 2s ease-in ;
+        }
+        .transition-demo :nth-child(3){
+            position: relative;
+            left: 0%;
+            transition: left 2s ease-out ;
+        }
+        .transition-demo :nth-child(4){
+            position: relative;
+            left: 0%;
+            transition: left 2s ease-in-out ;
+        }
+        .transition-demo :nth-child(5){
+            position: relative;
+            left: 0%;
+            transition: left 2s linear ;
+        }
+        .transition-demo :nth-child(6){
+            position: relative;
+            left: 0%;
+            transition: left 2s cubic-bezier(0.895, 2, 0.685, 0.22) 1s;
+        }
+        .transition-demo :nth-child(7){
+            position: relative;
+            left: 0%;
+            transition-property: left ;
+            transition-delay: 2s;
+            transition-duration: 2s;
+            transition-timing-function: ease-in;
+        }
+        .transition-demo :hover{
+            position: relative;
+            left: 70%;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="transition-demo">
+            <p>ease</p>
+            <p>ease in</p>
+            <p>ease out</p>
+            <p>ease in out</p>
+            <p>linear</p>
+            <p>cubic bezier</p>
+            <p>cubic bezier delay</p>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

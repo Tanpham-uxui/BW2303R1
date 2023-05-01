@@ -1,0 +1,39 @@
+.menu {
+    list-style-type: none;
+    background-color: #333333;
+    width: 406px;
+    padding-left: 0;
+    display: flex;
+    margin-top: 0px;
+     border-radius: 4px;
+}
+.menu li{
+    color: white;
+    font-weight: bolder;
+    padding: 10px 30px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 0px;
+    
+}
+.menu li:hover{
+    background-color: red;
+}
+.menu li:hover .sub-menu{
+    visibility: visible;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.sub-menu{
+    position: absolute;
+    padding-left: 0;
+    top: 40px;
+    left: 0px;
+    list-style: none;
+    background-color: #333333;
+    visibility: hidden;
+    border-radius: 4px;
+}

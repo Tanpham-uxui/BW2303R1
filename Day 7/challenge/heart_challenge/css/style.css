@@ -1,0 +1,69 @@
+@keyframes heart-beat{
+    0%{width:300px; height: 300px;}
+    10%{width:400px; height: 400px;}
+    20%{width:300px; height: 300px;}
+    30%{width:400px; height: 400px;}
+    40%{width:300px; height: 300px;}
+    50%{width:400px; height: 400px;}
+    60%{width:300px; height: 300px;}
+    70%{width:400px; height: 400px;}
+    80%{width:300px; height: 300px;}
+    90%{width:400px; height: 400px;}
+    100%{width:300px; height: 300px;}
+}
+@keyframes heart-beat-down{
+    0%{width:272px; height: 272px;}
+    10%{width:373px; height: 373px;}
+    20%{width:272px; height: 272px;}
+    30%{width:373px; height: 373px;}
+    40%{width:272px; height: 272px;}
+    50%{width:373px; height: 373px;}
+    60%{width:272px; height: 272px;}
+    70%{width:373px; height: 373px;}
+    80%{width:272px; height: 272px;}
+    90%{width:373px; height: 373px;}
+    100%{width:272px; height: 272px;}
+}
+.heart-container{
+    position: absolute;
+    width: 1800px;
+    height: 2000px;
+    background-color: black;
+}
+.right-heart{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 850.6px;
+    top: 296px;
+    background: #e95b5b;
+    border-radius: 200px;
+    animation-name: heart-beat;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.left-heart {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 710px;
+    top: 296px;
+    border-radius: 200px;
+    background: #e95b5b;
+    animation-name: heart-beat;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.bottom-heart{
+    position: absolute;
+    width: 272px;
+    height: 272px;
+    left: 794px;
+    top: 390px;
+    background: #e95b5b;
+    border-radius: 31px 31px 26px 26px;
+    transform: rotate(45deg);
+    animation-name: heart-beat-down;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
