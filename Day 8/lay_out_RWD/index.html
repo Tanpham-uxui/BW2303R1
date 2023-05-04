@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        font-size: 5px;
+      }
+      * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      body {
+        margin: 0;
+        background-color: rgb(206, 206, 206);
+      }
+      .col-1 {
+        width: 8.33%;
+      }
+      .col-2 {
+        width: 16.66%;
+      }
+      .col-3 {
+        width: 25%;
+      }
+      .col-4 {
+        width: 33.33%;
+      }
+      .col-5 {
+        width: 41.66%;
+      }
+      .col-6 {
+        width: 50%;
+      }
+      .col-7 {
+        width: 58.33%;
+      }
+      .col-8 {
+        width: 66.66%;
+      }
+      .col-9 {
+        width: 75%;
+      }
+      .col-10 {
+        width: 83.33%;
+      }
+      .col-11 {
+        width: 91.66%;
+      }
+      .col-12 {
+        width: 100%;
+      }
+      [class*="col-"] {
+        float: left;
+      }
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      header {
+        background-color: rgb(58, 58, 58);
+        color: rgb(134, 134, 134);
+        height: 11rem;
+        vertical-align: center;
+        width: 100%;
+      }
+      .logo-container h3 {
+        text-align: center;
+        font-size: 5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        padding: 2rem;
+      }
+      .main-nav a {
+        text-decoration: none;
+        color: rgb(134, 134, 134);
+        font-weight: lighter;
+      }
+      .head-link ul {
+        margin: 0;
+        padding-left: 0;
+      }
+      .head-link ul li {
+        display: table-cell;
+        padding:3rem 2rem 3rem 1rem;
+        font-size: 4rem;
+      }
+      .head-link ul li:hover {
+        background-color: black;
+        border-bottom: 0.5rem solid rgb(89, 60, 255);
+        color: aliceblue;
+      }
+      .login {
+        display: flex;
+        margin-top: 3rem;
+        float: right;
+        margin-right: 4rem;
+      }
+      .login a {
+        font-size: 3rem;
+        margin-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+      .left-menu ul {
+        list-style-type: none;
+        margin-top: 6rem;
+        align-content: center;
+      }
+      .left-menu ul li {
+        list-style-type: none;
+        margin-top: 3rem;
+      }
+      .left-menu ul li a {
+        text-decoration: none;
+        color: rgb(54, 54, 189);
+        font-size: 3rem;
+      }
+      .container {
+        font-size: 3rem;
+        background-color: white;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 5rem;
+        padding-bottom: 20rem;
+      }
+      .right-content ul {
+        list-style-type: none;
+        margin-top: 3rem;
+        float: left;
+      }
+      .right-content ul li {
+        list-style-type: none;
+        margin-top: 6rem;
+        padding: 2rem 4rem;
+        border: 1px solid rgb(61, 61, 61);
+        text-align: center;
+        margin-left: 0;
+      }
+      .right-content ul li a{
+        text-decoration: none;
+        color: rgb(92, 92, 92);
+        font-size: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav">
+        <div class="row">
+          <div class="col-1">
+            <div class="logo-container">
+              <h3>Logo</h3>
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="head-link">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="login">
+              <img src="asset/image/login_5.png" alt="" width="30px" />
+              <a href="#">Login</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="row">
+        <div class="col-2">
+          <div class="left-menu">
+            <ul>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="container">
+            <h2>welcome</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              porta urna a suscipit iaculis. Cras tempus sed tellus sed tempor.
+              Vestibulum eu ex sit amet augue aliquam feugiat. Curabitur
+              dignissim convallis enim. Duis sodales lorem vitae mauris mattis,
+              ut laoreet turpis placerat. Nullam ultrices ex et lorem volutpat
+              posuere. Mauris erat sem, elementum in dapibus id, fermentum et
+              ante.
+            </p>
+            <hr />
+            <h4>Test</h4>
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="right-content">
+            <ul>
+              <li><a href="#">ADS</a></li>
+              <li><a href="#">ADS</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

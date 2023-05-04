@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+
+      header {
+        width: 100%;
+      }
+
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 25%;
+      }
+
+      .desc {
+        text-align: center;
+        margin: 0px;
+        padding: 5px;
+      }
+
+      .desc h4 {
+        margin: 0;
+      }
+
+      .first-gallery img {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), url(asset/media/image/Diving.jpg);
+        box-shadow: 2px 21px 20px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      .second-gallery img {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), url(asset/media/image/Diving.jpg);
+        box-shadow: 2px 21px 20px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      .third-gallery img {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), url(asset/media/image/Diving.jpg);
+        box-shadow: 2px 21px 20px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      .fourth-gallery img {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), url(asset/media/image/Diving.jpg);
+        box-shadow: 2px 21px 20px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      footer {
+        text-align: center;
+        padding: 5px;
+      }
+
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      @media only screen and (min-width: 700px) {
+        .responsive {
+          width: 25%;
+        }
+      }
+
+      @media screen and (max-width: 700px) {
+        .responsive {
+          width: 50%;
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Responsive Image Gallery</h2>
+      <p>Resize the browser window to see the effect.</p>
+    </header>
+    <main>
+      <div class="row">
+        <div class="responsive">
+          <div class="first-gallery">
+            <img
+              src="asset/media/image/Diving.jpg"
+              alt="Diving picture not found"
+              width="8256px"
+              height="5504px"
+            />
+          </div>
+          <div class="desc">
+            <h4>Diving</h4>
+          </div>
+        </div>
+        <div class="responsive">
+          <div class="second-gallery">
+            <img
+              src="asset/media/image/festival.jpg"
+              alt="Festival picture not found"
+              width="5400px"
+              height="3600px"
+            />
+          </div>
+          <div class="desc">
+            <h4>Diving</h4>
+          </div>
+        </div>
+        <div class="responsive">
+          <div class="third-gallery">
+            <img
+              src="asset/media/image/jungle.jpg"
+              alt="Jungle picture not found"
+              width="6000px"
+              height="4000px"
+            />
+          </div>
+          <div class="desc">
+            <h4>Diving</h4>
+          </div>
+        </div>
+        <div class="responsive">
+          <div class="fourth-gallery">
+            <img
+              src="asset/media/image/the plane.jpg"
+              alt="Plane picture picture not found"
+              width="4000px"
+              height="2667x"
+            />
+          </div>
+          <div class="desc">
+            <h4>Diving</h4>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        This example use media queries to re-arrange the images on different
+        screen sizes: for screens larger than 700px wide, it will show four
+        images side by side, for screens smaller than 700px, it will show two
+        images side by side. For screens smaller than 500px, the images will
+        stack vertically (100%).
+      </p>
+    </footer>
+  </body>
+</html>
