@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../asset/css/style.css" />
+    <link rel="stylesheet" href="../asset/css/all.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav">
+        <div class="logo">
+          <a href="#">.Planthy</a>
+        </div>
+        <div class="head-link">
+          <div class="menu-button">
+            <img
+              src="../asset/media/image/none active menu button.png"
+              alt=""
+            />
+            <ul class="sub-menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Catalog</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+          <ul class="main-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="cart">
+          <img src="../asset/media/image/shopping-cart (1) 1.png" alt="" />
+        </div>
+      </nav>
+    </header>
+    <main>
+      <aside class="left-menu">
+        <div class="left-bar sidebar">
+          <div class="search-box">
+          <h5 class="sidebar-title">Catalog</h5>
+          <hr />
+          <div class="search-area">
+            <form action="data.html" method="get" id="search-form">
+              <input
+                id="searchbox-input"
+                type="text"
+                placeholder="Fill me..."
+              />
+              <label class="checkbox-container">
+                <input
+                  type="checkbox"
+                  id="goods-checkbox"
+                  name="Goods"
+                  value="Plant"
+                  checked="checked"
+                />Plant<span class="checkmark"></span>
+              </label>
+              <label class="checkbox-container">
+                <input
+                  type="checkbox"
+                  id="goods-checkbox"
+                  name="Goods"
+                  value="Plant"
+                />Seed<span class="checkmark"></span>
+              </label>
+              <label class="checkbox-container">
+                <input
+                  type="checkbox"
+                  id="goods-checkbox"
+                  name="Goods"
+                  value="Plant"
+                />Fertilize<span class="checkmark"></span>
+              </label>
+              <label class="checkbox-container">
+                <input
+                  type="checkbox"
+                  id="goods-checkbox"
+                  name="Goods"
+                  value="Plant"
+                />Tools<span class="checkmark"></span>
+              </label>
+
+              <input id="search-button" type="submit" value="Search" />
+            </form>
+          </div>
+          </div>
+          <div class="contact-box">
+            <img src="../asset/media/image/chat-text-dynamic-color.png" alt="">
+            <p>Feel free to contact us</p>
+          </div>
+        </div>
+      </aside>
+      <div class="content">
+        <div class="intro">
+          <div class="intro-content">
+            <h3>LET US MAKE YOUR HOME GREEN</h3>
+            <p>
+              Add a touch of green to your professional space with
+              <span id="company-name">Planthy</span>. Our innovative eCommerce
+              platform helps you find the perfect plant for your workspace and
+              offers essential tips on how to take care of it. Shop now and
+              experience the difference that our carefully curated selection of
+              plants can bring to your workspace!
+            </p>
+            <br />
+            <a href="#" class="shop-button">Shop Now</a>
+          </div>
+          <img
+            src="../asset/media/image/intro-background.jpg"
+            alt=""
+            class="background-img"
+          />
+        </div>
+        <div class="item-list">
+          <div class="hot-item-list">
+            <h4 class="header-title">Trending plant</h4>
+            <hr />
+            <div class="item-list-carousel">
+              <div class="item">
+                <img src="../asset/media/image/plant image/cactus.png" alt="" />
+                <p id="plant-name">Cactus</p>
+                <div class="price-bar">
+                  <p>$12.00</p>
+                  <div class="rate">
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img
+                      src="../asset/media/image/star-half-yellow-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="../asset/media/image/star-line-yellow-icon.png"
+                      alt=""
+                    />
+                    <span class="rate-count">(18)</span>
+                  </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="../asset/media/image/plant image/pancake plant.png"
+                  alt=""
+                />
+                <p id="plant-name">Pancake plant</p>
+                <div class="price-bar">
+                  <p>$12.00</p>
+                  <div class="rate">
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img
+                      src="../asset/media/image/star-half-yellow-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="../asset/media/image/star-line-yellow-icon.png"
+                      alt=""
+                    />
+                    <span class="rate-count">(18)</span>
+                  </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="../asset/media/image/plant image/snake plant.png"
+                  alt=""
+                />
+                <p id="plant-name">Snake Plant</p>
+                <div class="price-bar">
+                  <p>$12.00</p>
+                  <div class="rate">
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img
+                      src="../asset/media/image/star-half-yellow-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="../asset/media/image/star-line-yellow-icon.png"
+                      alt=""
+                    />
+                    <span class="rate-count">(18)</span>
+                  </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="../asset/media/image/plant image/succulent.png"
+                  alt=""
+                />
+                <p id="plant-name">Succulent</p>
+                <div class="price-bar">
+                  <p>$12.00</p>
+                  <div class="rate">
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img
+                      src="../asset/media/image/star-half-yellow-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="../asset/media/image/star-line-yellow-icon.png"
+                      alt=""
+                    />
+                    <span class="rate-count">(18)</span>
+                  </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <img src="../asset/media/image/plant image/cactus.png" alt="" />
+                <p id="plant-name">Cactus</p>
+                <div class="price-bar">
+                  <p>$12.00</p>
+                  <div class="rate">
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img
+                      src="../asset/media/image/star-half-yellow-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="../asset/media/image/star-line-yellow-icon.png"
+                      alt=""
+                    />
+                    <span class="rate-count">(18)</span>
+                  </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="../asset/media/image/plant image/pancake plant.png"
+                  alt=""
+                />
+                <p id="plant-name">Pancake plant</p>
+                <div class="price-bar">
+                  <p>$12.00</p>
+                  <div class="rate">
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img
+                      src="../asset/media/image/star-half-yellow-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="../asset/media/image/star-line-yellow-icon.png"
+                      alt=""
+                    />
+                    <span class="rate-count">(18)</span>
+                  </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="../asset/media/image/plant image/snake plant.png"
+                  alt=""
+                />
+                <p id="plant-name">Snake Plant</p>
+                <div class="price-bar">
+                  <p>$12.00</p>
+                  <div class="rate">
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img
+                      src="../asset/media/image/star-half-yellow-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="../asset/media/image/star-line-yellow-icon.png"
+                      alt=""
+                    />
+                    <span class="rate-count">(18)</span>
+                  </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="../asset/media/image/plant image/succulent.png"
+                  alt=""
+                />
+                <p id="plant-name">Succulent</p>
+                <div class="price-bar">
+                  <p>$12.00</p>
+                  <div class="rate">
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img
+                      src="../asset/media/image/star-half-yellow-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="../asset/media/image/star-line-yellow-icon.png"
+                      alt=""
+                    />
+                    <span class="rate-count">(18)</span>
+                  </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hot-item-list">
+            <h4 class="header-title">People also buy</h4>
+            <hr />
+            <div class="item-list-carousel">
+              <div class="item">
+                <img
+                  src="../asset/media/image/plant image/aloe vera.png"
+                  alt=""
+                />
+                <p id="plant-name">Aloe vera</p>
+                <div class="price-bar">
+                    <p>$12.00</p>
+                    <div class="rate">
+                      <img src="../asset/media/image/star-icon.png" alt="" />
+                      <img src="../asset/media/image/star-icon.png" alt="" />
+                      <img src="../asset/media/image/star-icon.png" alt="" />
+                      <img
+                        src="../asset/media/image/star-half-yellow-icon.png"
+                        alt=""
+                      />
+                      <img
+                        src="../asset/media/image/star-line-yellow-icon.png"
+                        alt=""
+                      />
+                      <span class="rate-count">(18)</span>
+                    </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <img src="../asset/media/image/plant image/cactus.png" alt="" />
+                <p id="plant-name">Cactus</p>
+                <div class="price-bar">
+                  <p>$12.00</p>
+                  <div class="rate">
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img
+                      src="../asset/media/image/star-half-yellow-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="../asset/media/image/star-line-yellow-icon.png"
+                      alt=""
+                    />
+                    <span class="rate-count">(18)</span>
+                  </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="../asset/media/image/plant image/pancake plant.png"
+                  alt=""
+                />
+                <p id="plant-name">Pancake plant</p>
+                <div class="price-bar">
+                  <p>$12.00</p>
+                  <div class="rate">
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img
+                      src="../asset/media/image/star-half-yellow-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="../asset/media/image/star-line-yellow-icon.png"
+                      alt=""
+                    />
+                    <span class="rate-count">(18)</span>
+                  </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="../asset/media/image/plant image/snake plant.png"
+                  alt=""
+                />
+                <p id="plant-name">Snake Plant</p>
+                <div class="price-bar">
+                  <p>$12.00</p>
+                  <div class="rate">
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img
+                      src="../asset/media/image/star-half-yellow-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="../asset/media/image/star-line-yellow-icon.png"
+                      alt=""
+                    />
+                    <span class="rate-count">(18)</span>
+                  </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="../asset/media/image/plant image/aloe vera.png"
+                  alt=""
+                />
+                <p id="plant-name">Aloe vera</p>
+                <div class="price-bar">
+                    <p>$12.00</p>
+                    <div class="rate">
+                      <img src="../asset/media/image/star-icon.png" alt="" />
+                      <img src="../asset/media/image/star-icon.png" alt="" />
+                      <img src="../asset/media/image/star-icon.png" alt="" />
+                      <img
+                        src="../asset/media/image/star-half-yellow-icon.png"
+                        alt=""
+                      />
+                      <img
+                        src="../asset/media/image/star-line-yellow-icon.png"
+                        alt=""
+                      />
+                      <span class="rate-count">(18)</span>
+                    </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <img src="../asset/media/image/plant image/cactus.png" alt="" />
+                <p id="plant-name">Cactus</p>
+                <div class="price-bar">
+                  <p>$12.00</p>
+                  <div class="rate">
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img
+                      src="../asset/media/image/star-half-yellow-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="../asset/media/image/star-line-yellow-icon.png"
+                      alt=""
+                    />
+                    <span class="rate-count">(18)</span>
+                  </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="../asset/media/image/plant image/pancake plant.png"
+                  alt=""
+                />
+                <p id="plant-name">Pancake plant</p>
+                <div class="price-bar">
+                  <p>$12.00</p>
+                  <div class="rate">
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img
+                      src="../asset/media/image/star-half-yellow-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="../asset/media/image/star-line-yellow-icon.png"
+                      alt=""
+                    />
+                    <span class="rate-count">(18)</span>
+                  </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="../asset/media/image/plant image/snake plant.png"
+                  alt=""
+                />
+                <p id="plant-name">Snake Plant</p>
+                <div class="price-bar">
+                  <p>$12.00</p>
+                  <div class="rate">
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img src="../asset/media/image/star-icon.png" alt="" />
+                    <img
+                      src="../asset/media/image/star-half-yellow-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="../asset/media/image/star-line-yellow-icon.png"
+                      alt=""
+                    />
+                    <span class="rate-count">(18)</span>
+                  </div>
+                  <button id="add-cart">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feature">
+          <h4 class="header-title">Feature</h4>
+          <div class="feature-list">
+            <div class="feature-element">
+              <div class="overlay">
+                <div class="overlay-box"></div>
+                <img
+                  src="../asset/media/image/feature/shipping.png"
+                  alt=""
+                  class="feature-img"
+                />
+                <div class="feature-name">Shipping</div>
+              </div>
+              <p>
+                Our <span class="high-light"> shipping service</span> is fast
+                and safe, to be sure that our green friend will come to you with
+                100% health
+              </p>
+            </div>
+            <div class="feature-element">
+              <div class="overlay">
+                <div class="overlay-box"></div>
+                <img
+                  src="../asset/media/image/feature/delivery.png"
+                  alt=""
+                  class="feature-img"
+                />
+                <div class="feature-name">Payment</div>
+              </div>
+              <p>
+                We provide the variable
+                <span class="high-light"> payment method </span>for you to
+                choose from
+              </p>
+            </div>
+            <div class="feature-element">
+              <div class="overlay">
+                <div class="overlay-box"></div>
+                <img
+                  src="../asset/media/image/feature/assitant.png"
+                  alt=""
+                  class="feature-img"
+                />
+                <div class="feature-name">Assistant</div>
+              </div>
+              <p>
+                Don't know anything about gardening? Don't worry we will have
+                you cover and <span class="high-light"> assist </span> so you
+                can know how to take care our green friends
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside class="right-menu">
+        <div class="right-bar sidebar">
+          <img
+            class="right-img"
+            src="../asset/media/image/plant image/nikita-kachanovsky-GY6ViMxtmDE-unsplash.jpg"
+            alt=""
+          />
+          <div class="item-info">
+            <p id="plant-right-name">Snake Plant</p>
+            <p id="plant-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nibh
+              ante, malesuada sit amet velit sed, egestas varius elit. Duis vel
+              nunc convallis, semper velit sit amet, scelerisque felis.
+            </p>
+            <div class="rate">
+              <img src="../asset/media/image/star-icon.png" alt="" />
+              <img src="../asset/media/image/star-icon.png" alt="" />
+              <img src="../asset/media/image/star-icon.png" alt="" />
+              <img
+                src="../asset/media/image/star-half-yellow-icon.png"
+                alt=""
+              />
+              <img
+                src="../asset/media/image/star-line-yellow-icon.png"
+                alt=""
+              />
+              <span class="rate-count">(18)</span>
+            </div>
+            <p id="price-tag">$12.00</p>
+            <button id="add-cart">Add to cart</button>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <div class="about">
+        <h3 class="footer-title">About Us</h3>
+        <img
+          src="../asset/media/image/Planthy logo only -primary-01.svg"
+          alt=""
+        />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="connect">
+        <h3 class="footer-title">Connect Us</h3>
+        <div class="social-network">
+          <div class="network">
+            <p>Planthy</p>
+            <img
+              src="../asset/media/image/social network/facebook@4x.png"
+              alt=""
+            />
+          </div>
+          <div class="network">
+            <p>@planthy.plant</p>
+            <img
+              src="../asset/media/image/social network/insta@4x.png"
+              alt=""
+            />
+          </div>
+          <div class="network">
+            <p>planthy</p>
+            <img
+              src="../asset/media/image/social network/skype@4x.png"
+              alt=""
+            />
+          </div>
+          <div class="network">
+            <p>@planthy</p>
+            <img
+              src="../asset/media/image/social network/twitter@4x.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="support">
+        <h3 class="footer-title">Support</h3>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Legal Mention</a>
+      </div>
+      <div class="contact">
+        <h3 class="footer-title">Contact Us</h3>
+        <div class="contact-element">
+          <img src="../asset/media/image/social network/phone@4x.png" alt="" />
+          <a href="tel:+0123456789">+0123456789</a>
+        </div>
+        <div class="contact-element">
+          <img src="../asset/media/image/social network/mail@4x.png" alt="" />
+          <a href="mailto:planthy@plant.com">planthy@plant.com</a>
+        </div>
+      </div>
+      <div class="map">
+        <h3 class="footer-title">Map</h3>
+        <div class="map-box">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7648.355330128934!2d107.5195350929552!3d16.567562477740676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1683735730693!5m2!1sen!2s"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
