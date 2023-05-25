@@ -1,0 +1,65 @@
+
+body{
+background: linear-gradient(rgba(0, 0, 0, 0.247), rgb(0, 0, 0)), url(/Second-homework/asset/Image/background.jpg-1.png);
+}
+main {
+    height: 100vh;
+    width: 100vw;
+    
+}
+.container{
+    height: 95%;
+    width: 100%;
+}
+.login-form {
+    width: 40%;
+    /* background-color: rgba(0, 0, 0, 0.486); */
+    border-radius: 1rem;
+    backdrop-filter: blur(5px);
+    border: 0.1rem solid rgba(0, 0, 0, 0.719);
+}
+
+.border-input {
+    border: 0.15rem solid white;
+    border-radius: 0.2rem;
+}
+
+/* .i-border {
+    border: none !important;
+} */
+
+i {
+    color: aliceblue;
+}
+
+input.transparent-input {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: none;
+}
+
+input::-webkit-input-placeholder {
+    color: rgb(255, 255, 255) !important;
+}
+
+input {
+    padding: 1rem !important;
+    color: white !important;
+}
+
+p {
+    color: white;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none !important;
+    color: rgb(5, 122, 5) !important;
+}
+
+.main-form {
+    align-items: center;
+}
+.login-btn{
+    font-weight: 600;
+    border-radius: 0.5rem;
+}
