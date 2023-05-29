@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="/home work 2/asset/Bootstrap/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/home work 2/asset/fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+    <script src="/home work 2/asset/Bootstrap/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid row">
+      <aside class="col-2 d-none d-md-flex px-0">
+        <div class="alert alert-info d-none d-lg-block">
+          Resize your browser to show the responsive offcanvas toggle.
+        </div>
+
+        <div
+          class="offcanvas-md offcanvas-end"
+          tabindex="-1"
+          id="offcanvasResponsive"
+          aria-labelledby="offcanvasResponsiveLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">
+              Responsive offcanvas
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#offcanvasResponsive"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+          </div>
+        </div>
+      </aside>
+      <div class="col-12 col-lg-10">
+        <header>
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <button
+                class="btn btn-primary d-lg-none"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasResponsive"
+                aria-controls="offcanvasResponsive"
+              >
+                open
+              </button>
+              <a class="navbar-brand" href="#">Navbar</a>
+              
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#offcanvasWithBothOptions"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <main></main>
+        <main></main>
+      </div>
+    </div>
+  </body>
+</html>

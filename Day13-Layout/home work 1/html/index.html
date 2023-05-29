@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="/home work 1/asset/Bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/home work 1/asset/package/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="/home work 1/asset/fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+    <script src="/home work 1/asset/Bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .fs-7 {
+        font-size: 0.75rem;
+      }
+      .more-btn {
+        padding: 0.25rem 0.58rem;
+      }
+      .more-btn:hover {
+        background-color: #0d6efd !important;
+        color: white;
+      }
+      .item:nth-child(2) .heading .icon {
+        background-color: #6f42c1 !important;
+      }
+      .book-item {
+        border: 1rem solid;
+      }
+      @media only screen and (max-width: 769px) {
+        .overlay {
+          left: 50% !important;
+          top: 50% !important;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 992px) {
+        .overlay {
+          left: 50% !important;
+          top: 100% !important;
+        }
+      }
+      #join-us {
+        margin-top: 5rem !important;
+      }
+    </style>
+  </head>
+  <body class="bg-info-subtle">
+    <header>
+      <div class="container-fluid bg-info-subtle">
+        <nav class="navbar navbar-expand-md fixed-top bg-info-subtle shadow">
+          <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end gap-2"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav fw-semibold gap-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Course</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Testimonial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <button
+                class="btn btn-outline-primary border-2 fw-bold text-black px-4"
+                type="submit"
+              >
+                Login
+              </button>
+              <button
+                class="btn btn-primary border-2 text-light fw-bold"
+                type="submit"
+              >
+                Register
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container pt-5">
+        <section id="introduce" class="pt-5 mt-5 row">
+          <div class="sologan col-12 col-md-6 pb-2 pb-md-0">
+            <h1
+              class="pe-3 display-4 fw-bold animate__animated animate__fadeInLeft"
+            >
+              Learn more and make success the result
+            </h1>
+          </div>
+          <div
+            class="pre-word col-12 col-md-6 animate__animated animate__fadeInRight"
+          >
+            <p class="bg-white text-primary fw-medium d-inline-block px-2">
+              - The best E-Learning Platform
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+              veritatis nesciunt possimus in obcaecati earum quasi, quae
+              doloremque nulla odio modi ipsam, similique libero consectetur
+              fuga!
+            </p>
+            <button class="btn btn-primary px-4" type="button">
+              Show all Course
+            </button>
+          </div>
+        </section>
+        <section id="video-intro" class="pt-5 row">
+          <video
+            src="/home work 1/asset/video/How to  View PDF Files on Windows   UPDF.mp4"
+            autoplay
+            muted
+            class="rounded-4 object-fit-fill col-12 col-lg-10 p-0 animate__animated animate__fadeInUp"
+            type="video/mp4"
+          ></video>
+          <div
+            class="achievement col-12 col-lg-2 d-flex flex-row flex-lg-column px-4 mt-0 mt-md-5 justify-content-around animate__animated animate__fadeInRight"
+          >
+            <div class="achievement-section">
+              <h3 class="text-center text-primary fw-bold display-6">15+</h3>
+              <p class="text-center text-secondary fw-medium">
+                Total branches opened in last year
+              </p>
+            </div>
+            <div class="achievement-section">
+              <h3 class="text-center text-primary fw-bold display-6">5K+</h3>
+              <p class="text-center text-secondary fw-medium">
+                New student in last 30 days
+              </p>
+            </div>
+            <div class="achievement-section">
+              <h3 class="text-center text-primary fw-bold display-6">1,5K+</h3>
+              <p class="text-center text-secondary fw-medium">
+                New student in last 30 days
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="features" class="mt-5">
+          <div
+            class="header text-center d-flex flex-column align-items-center gap-2 mb-4"
+          >
+            <h2 class="text-black">Our Features Course</h2>
+            <p class="text-center w-">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              sequi illo, iure impedit officiis veniam iste. iure impedit
+              officiis veniam iste.
+            </p>
+          </div>
+          <div class="courses row">
+            <div class="course-item col-12 col-md-6 col-lg-4 p-2">
+              <div class="d-flex flex-column bg-white rounded-4 p-2">
+                <img
+                  src="/home work 1/asset/image/c-1.png"
+                  alt="designer course"
+                  class="rounded-4"
+                />
+                <div class="p-2">
+                  <div
+                    class="price-tag d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="bg-info-subtle d-inline-block px-3 py-1 rounded-3"
+                    >
+                      Development
+                    </div>
+                    <div class="text-primary fw-bold">$225</div>
+                  </div>
+                  <h6 class="fw-medium text-secondary pt-3 m-0">
+                    Be a professional designer be with passion & dignity
+                  </h6>
+                  <div class="course-info d-flex justify-content-between pt-3">
+                    <div
+                      class="lessons-count d-flex align-items-center gap-2 text-secondary"
+                    >
+                      <i class="fa-solid fa-book-open fa-2xs"></i>
+                      <p class="m-0 fw-semibold fs-7">20 lessons</p>
+                    </div>
+                    <div
+                      class="lessons-count d-flex align-items-center gap-2 text-secondary"
+                    >
+                      <i class="fa-solid fa-user-group fa-2xs"></i>
+                      <p class="m-0 fw-semibold fs-7">20 lessons</p>
+                    </div>
+                  </div>
+                  <div
+                    class="course-review d-flex justify-content-between pt-3"
+                  >
+                    <div class="rating d-flex align-items-center gap-1">
+                      <p class="text-secondary fs-7 m-0">5.0</p>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <p class="text-secondary fs-7 m-0">(2,539)</p>
+                    </div>
+                    <div class="more-btn bg-primary-subtle rounded-circle">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="course-item col-12 col-md-6 col-lg-4 p-2">
+              <div class="d-flex flex-column bg-white rounded-4 p-2">
+                <img
+                  src="/home work 1/asset/image/c-1.png"
+                  alt="designer course"
+                  class="rounded-4"
+                />
+                <div class="p-2">
+                  <div
+                    class="price-tag d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="bg-info-subtle d-inline-block px-3 py-1 rounded-3"
+                    >
+                      Development
+                    </div>
+                    <div class="text-primary fw-bold">$225</div>
+                  </div>
+                  <h6 class="fw-medium text-secondary pt-3 m-0">
+                    Be a professional designer be with passion & dignity
+                  </h6>
+                  <div class="course-info d-flex justify-content-between pt-3">
+                    <div
+                      class="lessons-count d-flex align-items-center gap-2 text-secondary"
+                    >
+                      <i class="fa-solid fa-book-open fa-2xs"></i>
+                      <p class="m-0 fw-semibold fs-7">20 lessons</p>
+                    </div>
+                    <div
+                      class="lessons-count d-flex align-items-center gap-2 text-secondary"
+                    >
+                      <i class="fa-solid fa-user-group fa-2xs"></i>
+                      <p class="m-0 fw-semibold fs-7">20 lessons</p>
+                    </div>
+                  </div>
+                  <div
+                    class="course-review d-flex justify-content-between pt-3"
+                  >
+                    <div class="rating d-flex align-items-center gap-1">
+                      <p class="text-secondary fs-7 m-0">5.0</p>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <p class="text-secondary fs-7 m-0">(2,539)</p>
+                    </div>
+                    <div class="more-btn bg-primary-subtle rounded-circle">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="course-item col-12 col-md-6 col-lg-4 p-2">
+              <div class="d-flex flex-column bg-white rounded-4 p-2">
+                <img
+                  src="/home work 1/asset/image/c-1.png"
+                  alt="designer course"
+                  class="rounded-4"
+                />
+                <div class="p-2">
+                  <div
+                    class="price-tag d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="bg-info-subtle d-inline-block px-3 py-1 rounded-3"
+                    >
+                      Development
+                    </div>
+                    <div class="text-primary fw-bold">$225</div>
+                  </div>
+                  <h6 class="fw-medium text-secondary pt-3 m-0">
+                    Be a professional designer be with passion & dignity
+                  </h6>
+                  <div class="course-info d-flex justify-content-between pt-3">
+                    <div
+                      class="lessons-count d-flex align-items-center gap-2 text-secondary"
+                    >
+                      <i class="fa-solid fa-book-open fa-2xs"></i>
+                      <p class="m-0 fw-semibold fs-7">20 lessons</p>
+                    </div>
+                    <div
+                      class="lessons-count d-flex align-items-center gap-2 text-secondary"
+                    >
+                      <i class="fa-solid fa-user-group fa-2xs"></i>
+                      <p class="m-0 fw-semibold fs-7">20 lessons</p>
+                    </div>
+                  </div>
+                  <div
+                    class="course-review d-flex justify-content-between pt-3"
+                  >
+                    <div class="rating d-flex align-items-center gap-1">
+                      <p class="text-secondary fs-7 m-0">5.0</p>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <p class="text-secondary fs-7 m-0">(2,539)</p>
+                    </div>
+                    <div class="more-btn bg-primary-subtle rounded-circle">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="course-item col-12 col-md-6 col-lg-4 p-2">
+              <div class="d-flex flex-column bg-white rounded-4 p-2">
+                <img
+                  src="/home work 1/asset/image/c-1.png"
+                  alt="designer course"
+                  class="rounded-4"
+                />
+                <div class="p-2">
+                  <div
+                    class="price-tag d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="bg-info-subtle d-inline-block px-3 py-1 rounded-3"
+                    >
+                      Development
+                    </div>
+                    <div class="text-primary fw-bold">$225</div>
+                  </div>
+                  <h6 class="fw-medium text-secondary pt-3 m-0">
+                    Be a professional designer be with passion & dignity
+                  </h6>
+                  <div class="course-info d-flex justify-content-between pt-3">
+                    <div
+                      class="lessons-count d-flex align-items-center gap-2 text-secondary"
+                    >
+                      <i class="fa-solid fa-book-open fa-2xs"></i>
+                      <p class="m-0 fw-semibold fs-7">20 lessons</p>
+                    </div>
+                    <div
+                      class="lessons-count d-flex align-items-center gap-2 text-secondary"
+                    >
+                      <i class="fa-solid fa-user-group fa-2xs"></i>
+                      <p class="m-0 fw-semibold fs-7">20 lessons</p>
+                    </div>
+                  </div>
+                  <div
+                    class="course-review d-flex justify-content-between pt-3"
+                  >
+                    <div class="rating d-flex align-items-center gap-1">
+                      <p class="text-secondary fs-7 m-0">5.0</p>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <p class="text-secondary fs-7 m-0">(2,539)</p>
+                    </div>
+                    <div class="more-btn bg-primary-subtle rounded-circle">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="course-item col-12 col-md-6 col-lg-4 p-2">
+              <div class="d-flex flex-column bg-white rounded-4 p-2">
+                <img
+                  src="/home work 1/asset/image/c-1.png"
+                  alt="designer course"
+                  class="rounded-4"
+                />
+                <div class="p-2">
+                  <div
+                    class="price-tag d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="bg-info-subtle d-inline-block px-3 py-1 rounded-3"
+                    >
+                      Development
+                    </div>
+                    <div class="text-primary fw-bold">$225</div>
+                  </div>
+                  <h6 class="fw-medium text-secondary pt-3 m-0">
+                    Be a professional designer be with passion & dignity
+                  </h6>
+                  <div class="course-info d-flex justify-content-between pt-3">
+                    <div
+                      class="lessons-count d-flex align-items-center gap-2 text-secondary"
+                    >
+                      <i class="fa-solid fa-book-open fa-2xs"></i>
+                      <p class="m-0 fw-semibold fs-7">20 lessons</p>
+                    </div>
+                    <div
+                      class="lessons-count d-flex align-items-center gap-2 text-secondary"
+                    >
+                      <i class="fa-solid fa-user-group fa-2xs"></i>
+                      <p class="m-0 fw-semibold fs-7">20 lessons</p>
+                    </div>
+                  </div>
+                  <div
+                    class="course-review d-flex justify-content-between pt-3"
+                  >
+                    <div class="rating d-flex align-items-center gap-1">
+                      <p class="text-secondary fs-7 m-0">5.0</p>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <p class="text-secondary fs-7 m-0">(2,539)</p>
+                    </div>
+                    <div class="more-btn bg-primary-subtle rounded-circle">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="course-item col-12 col-md-6 col-lg-4 p-2">
+              <div class="d-flex flex-column bg-white rounded-4 p-2">
+                <img
+                  src="/home work 1/asset/image/c-1.png"
+                  alt="designer course"
+                  class="rounded-4"
+                />
+                <div class="p-2">
+                  <div
+                    class="price-tag d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="bg-info-subtle d-inline-block px-3 py-1 rounded-3"
+                    >
+                      Development
+                    </div>
+                    <div class="text-primary fw-bold">$225</div>
+                  </div>
+                  <h6 class="fw-medium text-secondary pt-3 m-0">
+                    Be a professional designer be with passion & dignity
+                  </h6>
+                  <div class="course-info d-flex justify-content-between pt-3">
+                    <div
+                      class="lessons-count d-flex align-items-center gap-2 text-secondary"
+                    >
+                      <i class="fa-solid fa-book-open fa-2xs"></i>
+                      <p class="m-0 fw-semibold fs-7">20 lessons</p>
+                    </div>
+                    <div
+                      class="lessons-count d-flex align-items-center gap-2 text-secondary"
+                    >
+                      <i class="fa-solid fa-user-group fa-2xs"></i>
+                      <p class="m-0 fw-semibold fs-7">20 lessons</p>
+                    </div>
+                  </div>
+                  <div
+                    class="course-review d-flex justify-content-between pt-3"
+                  >
+                    <div class="rating d-flex align-items-center gap-1">
+                      <p class="text-secondary fs-7 m-0">5.0</p>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <i class="fa-solid fa-star fa-2xs text-primary"></i>
+                      <p class="text-secondary fs-7 m-0">(2,539)</p>
+                    </div>
+                    <div class="more-btn bg-primary-subtle rounded-circle">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="learning-section" class="mt-5 row">
+          <div class="left-content col-12 col-md-6 pe-4">
+            <h2 class="text-black">We Make Your Learning Through Awesome</h2>
+            <p class="pt-3 fw-medium text-secondary">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              vel porro voluptates, architecto sit libero modi facere omnis
+              delectus eum animi, officiis eaque ratione neque optio voluptatem
+              voluptas sequi consequuntur?
+            </p>
+            <p class="fw-medium text-secondary">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              vel porro voluptates, architecto sit libero modi facere omnis
+              delectus eum animi.
+            </p>
+            <div
+              class="achievement d-flex p-0 m-0 mt-md-5 gap-md-0 gap-lg-5 justify-content-evenly justify-content-md-between justify-content-lg-start align-items-start animate__animated animate__fadeInRight"
+            >
+              <div class="achievement-section pe-0 pe-md-3">
+                <div class="header"></div>
+                <h3 class="text-center text-primary fw-bold display-6">15k+</h3>
+                <p class="text-center text-secondary fw-medium">Student</p>
+              </div>
+              <div class="achievement-section pe-0 pe-md-3">
+                <h3 class="text-center text-primary fw-bold display-6">125+</h3>
+                <p class="text-center text-secondary fw-medium">Courses</p>
+              </div>
+              <div class="achievement-section">
+                <h3 class="text-center text-primary fw-bold display-6">200+</h3>
+                <p class="text-center text-secondary fw-medium">Countries</p>
+              </div>
+            </div>
+          </div>
+          <div class="right-content col-12 col-md-6 pe-5">
+            <div class="achievement-content d-flex flex-column gap-4">
+              <div class="item">
+                <div class="heading d-flex align-items-center">
+                  <div
+                    class="icon p-4 bg-warning d-inline-block text-white rounded-4"
+                  >
+                    <i class="fa-solid fa-video fa-xl"></i>
+                  </div>
+                  <div class="fw-medium fs-5 ms-3">
+                    <p class="m-0">Over 5.8k</p>
+                    <p class="m-0">Video Course</p>
+                  </div>
+                </div>
+                <div class="content mt-2 fw-medium text-secondary">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Saepe quidem modi, explicabo exercitationem a et voluptatem
+                  blanditiis, rerum quos, ipsa repudiandae. Aperiam ipsum non
+                  dolorem similique minima, maxime itaque aliquid.
+                </div>
+              </div>
+              <div class="item">
+                <div class="heading d-flex align-items-center">
+                  <div class="icon p-4 d-inline-block text-white rounded-4">
+                    <i class="fa-solid fa-award fa-xl"></i>
+                  </div>
+                  <div class="fw-medium fs-5 ms-3">
+                    <p class="m-0">Over 5.8k</p>
+                    <p class="m-0">Video Course</p>
+                  </div>
+                </div>
+                <div class="content mt-2 fw-medium text-secondary">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Saepe quidem modi, explicabo exercitationem a et voluptatem
+                  blanditiis, rerum quos, ipsa repudiandae. Aperiam ipsum non
+                  dolorem similique minima, maxime itaque aliquid.
+                </div>
+              </div>
+              <div class="item">
+                <div class="heading d-flex align-items-center">
+                  <div
+                    class="icon p-4 bg-info d-inline-block text-white rounded-4"
+                  >
+                    <i class="fa-solid fa-check fa-xl"></i>
+                  </div>
+                  <div class="fw-medium fs-5 ms-3">
+                    <p class="m-0">Over 5.8k</p>
+                    <p class="m-0">Video Course</p>
+                  </div>
+                </div>
+                <div class="content mt-2 fw-medium text-secondary">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Saepe quidem modi, explicabo exercitationem a et voluptatem
+                  blanditiis, rerum quos, ipsa repudiandae. Aperiam ipsum non
+                  dolorem similique minima, maxime itaque aliquid.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="book-review" class="mt-5">
+          <div
+            class="header text-center d-flex flex-column align-items-center gap-2 mb-4"
+          >
+            <h2 class="text-black">Some Best Books</h2>
+            <p class="text-center w-100">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              sequi illo, iure impedit officiis veniam iste. iure impedit
+              officiis veniam iste.
+            </p>
+          </div>
+          <div class="cotent">
+            <div id="book-view" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#book-view"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#book-view"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#book-view"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div
+                    class="books d-flex flex-row justify-content-between p-5 pt-0 gap-5"
+                  >
+                    <div class="book-item border-white rounded-2">
+                      <img
+                        src="/home work 1/asset/image/book-1.png"
+                        alt="Book Cover"
+                        class="img-fluid rounded-2"
+                      />
+                    </div>
+                    <div class="book-item border-white rounded-2">
+                      <img
+                        src="/home work 1/asset/image/book-2.png"
+                        alt="Book Cover"
+                        class="img-fluid rounded-2"
+                      />
+                    </div>
+                    <div class="book-item border-white rounded-2">
+                      <img
+                        src="/home work 1/asset/image/book-3.png"
+                        alt="Book Cover"
+                        class="img-fluid rounded-2"
+                      />
+                    </div>
+                    <div class="book-item border-white rounded-2">
+                      <img
+                        src="/home work 1/asset/image/book-4.png"
+                        alt="Book Cover"
+                        class="img-fluid rounded-2"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div
+                    class="books d-flex flex-row justify-content-between p-5 pt-0 gap-5"
+                  >
+                    <div class="book-item border-white rounded-2">
+                      <img
+                        src="/home work 1/asset/image/book-1.png"
+                        alt="Book Cover"
+                        class="img-fluid rounded-2"
+                      />
+                    </div>
+                    <div class="book-item border-white rounded-2">
+                      <img
+                        src="/home work 1/asset/image/book-2.png"
+                        alt="Book Cover"
+                        class="img-fluid rounded-2"
+                      />
+                    </div>
+                    <div class="book-item border-white rounded-2">
+                      <img
+                        src="/home work 1/asset/image/book-3.png"
+                        alt="Book Cover"
+                        class="img-fluid rounded-2"
+                      />
+                    </div>
+                    <div class="book-item border-white rounded-2">
+                      <img
+                        src="/home work 1/asset/image/book-4.png"
+                        alt="Book Cover"
+                        class="img-fluid rounded-2"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div
+                    class="books d-flex flex-row justify-content-between p-5 pt-0 gap-5"
+                  >
+                    <div class="book-item border-white rounded-2">
+                      <img
+                        src="/home work 1/asset/image/book-1.png"
+                        alt="Book Cover"
+                        class="img-fluid rounded-2"
+                      />
+                    </div>
+                    <div class="book-item border-white rounded-2">
+                      <img
+                        src="/home work 1/asset/image/book-2.png"
+                        alt="Book Cover"
+                        class="img-fluid rounded-2"
+                      />
+                    </div>
+                    <div class="book-item border-white rounded-2">
+                      <img
+                        src="/home work 1/asset/image/book-3.png"
+                        alt="Book Cover"
+                        class="img-fluid rounded-2"
+                      />
+                    </div>
+                    <div class="book-item border-white rounded-2">
+                      <img
+                        src="/home work 1/asset/image/book-4.png"
+                        alt="Book Cover"
+                        class="img-fluid rounded-2"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="your-course" class="mt-5 row gy-4 mb-5">
+          <div class="left-content col-12 col-md-6 pe-4 mb-5">
+            <h2 class="text-black">We Make Your Learning Through Awesome</h2>
+            <p class="pt-3 fw-medium text-secondary">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              vel porro voluptates, architecto sit libero modi facere omnis
+              delectus eum animi.
+            </p>
+            <p class="fw-medium text-secondary">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              vel porro voluptates. Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Vitae vel porro voluptates.
+            </p>
+            <div class="d-flex flex-column justify-content-around pb-3 gap-3">
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-circle-check fa-lg text-primary pe-1"></i>
+                <p class="text-black fw-semibold m-0">
+                  Detail desciption of each course
+                </p>
+              </div>
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-circle-check fa-lg text-primary pe-1"></i>
+                <p class="text-black fw-semibold m-0">
+                  Detail desciption of each course
+                </p>
+              </div>
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-circle-check fa-lg text-primary pe-1"></i>
+                <p class="text-black fw-semibold m-0">
+                  Detail desciption of each course
+                </p>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="btn btn-primary p-2 fw-semibold rounded-3"
+            >
+              Start Learning Now
+            </button>
+          </div>
+          <div class="right-content col-12 col-md-6 h-100 mb-5">
+            <div class="position-relative">
+              <div
+                class="overlay position-absolute m-3 w-50 top-100 start-0 translate-middle bg-info-subtle rounded-3 p-3"
+              >
+                <video
+                  src="/home work 1/asset/video/How to  View PDF Files on Windows   UPDF.mp4"
+                  autoplay
+                  muted
+                  class="w-100 rounded-3"
+                ></video>
+              </div>
+              <img
+                src="/home work 1/asset/image/annie-spratt-QckxruozjRg-unsplash.jpg"
+                alt="team image"
+                class="img-fluid w-100 rounded-3"
+              />
+            </div>
+          </div>
+        </section>
+        <section id="join-us" class="mt-5 bg-primary p-4 rounded-4">
+          <div class="row">
+            <div class="header pe-4 col-12 col-lg-6">
+              <h2 class="text-white">Ready to join..</h2>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                ullam dolore officiis consequuntur laborum adipisci voluptatem
+                possimus nemo est nobis magnam.
+              </p>
+            </div>
+            <div
+              class="col-12 col-lg-6 align-self-center d-flex justify-content-center"
+            >
+              <button type="button" class="btn btn-light px-4 py-2 fw-medium">
+                Register Now
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container mt-5 py-5">
+        <div class="row">
+          <div class="col-12 col-lg-3 pe-4 mb-5 text-center text-lg-start">
+            <img
+              src="/home work 1/asset/image/logo -1.png"
+              alt="logo image"
+              class="img-fluid mb-2 w-50"
+            />
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet consectetur. Ab rem obcaecati magnam
+              eius voluptatum distinctio impedit voluptatem illum debitis enim.
+            </p>
+            <div
+              class="connection d-flex gap-3 justify-content-center justify-content-lg-start"
+            >
+              <i class="fa-brands fa-facebook-f fa-xl"></i>
+              <i class="fa-brands fa-linkedin-in fa-xl"></i>
+              <i class="fa-brands fa-instagram fa-xl"></i>
+              <i class="fa-brands fa-pinterest-p fa-xl"></i>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-4 col-lg-3 pe-4 d-flex flex-column align-items-center align-items-lg-start"
+          >
+            <h4 class="text-black mb-3">Category</h4>
+            <ul
+              class="p-0 fs-5 d-flex flex-column align-items-center align-items-lg-start"
+            >
+              <li class="nav-link mb-2">
+                <a class="text-decoration-none text-secondary" href="#"
+                  >Privacy & Policy</a
+                >
+              </li>
+              <li class="nav-link mb-2">
+                <a class="text-decoration-none text-secondary" href="#"
+                  >Term & Condition</a
+                >
+              </li>
+              <li class="nav-link mb-2">
+                <a class="text-decoration-none text-secondary" href="#"
+                  >Customer Support</a
+                >
+              </li>
+              <li class="nav-link mb-2">
+                <a class="text-decoration-none text-secondary" href="#"
+                  >For Bussiness</a
+                >
+              </li>
+              <li class="nav-link mb-2">
+                <a class="text-decoration-none text-secondary" href="#"
+                  >Support</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-12 col-md-4 col-lg-3 pe-4 d-flex flex-column align-items-center align-items-lg-start"
+          >
+            <h4 class="text-black mb-3">Useful Links</h4>
+            <ul
+              class="p-0 fs-5 d-flex flex-column align-items-center align-items-lg-start"
+            >
+              <li class="nav-link mb-2">
+                <a class="text-decoration-none text-secondary" href="#"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-link mb-2">
+                <a class="text-decoration-none text-secondary" href="#"
+                  >Refer A Friend</a
+                >
+              </li>
+              <li class="nav-link mb-2">
+                <a class="text-decoration-none text-secondary" href="#"
+                  >Scolarship</a
+                >
+              </li>
+              <li class="nav-link mb-2">
+                <a class="text-decoration-none text-secondary" href="#"
+                  >Marketing</a
+                >
+              </li>
+              <li class="nav-link mb-2">
+                <a class="text-decoration-none text-secondary" href="#"
+                  >Free Courses</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 pe-4 d-flex flex-column align-items-center align-items-lg-start">
+            <h4 class="text-black mb-3">Contact Us</h4>
+            <ul class="p-0 fs-5 d-flex flex-column align-items-center align-items-lg-start">
+              <a class="nav-link text-decoration-none text-secondary mb-2" href="#">About Us</a>
+              <a class="nav-link text-decoration-none text-secondary mb-2" href="#">About Us</a>
+              <a class="nav-link text-decoration-none text-secondary mb-2" href="#">About Us</a>
+            </ul>
+          </div>
+        </div>
+        <div class="foot">
+          <hr />
+          <p class="text-center">
+            &copy; Copyright 2021 Softfounder
+            (www.softfounder.com)-Email:abcd@gmail.com
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
